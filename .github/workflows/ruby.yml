@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        gemfile: [rails60, rails61, rails70, rails71, rails72]
+        gemfile: [rails70, rails71, rails72]
         ruby: ["3.2", "3.3", "3.4"]
 
     env:
