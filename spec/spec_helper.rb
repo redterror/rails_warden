@@ -3,6 +3,7 @@ require "rails"
 require "rails_warden"
 
 require "action_controller"
+require "ostruct"
 
 $TESTING=true
 
